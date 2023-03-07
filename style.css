@@ -1,0 +1,38 @@
+body{
+    background-color: #daeeff;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #daeeff;
+}
+figure{
+    width: 12.3%;
+    height: auto;
+    background-color: rgb(205, 232, 255);
+    padding: 1rem;
+    padding-bottom: 1.78rem;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+h1{
+    text-align: center;
+    background-color: rgb(132, 190, 236);
+    color: rgb(254, 209, 85);
+    -webkit-text-stroke: 0.5px black;
+}
+figcaption{
+    text-align: center;
+    margin: 1px;
+    color: #ad4a4a; 
+    font-family:monospace;
+    text-transform: uppercase;
+    font-size: 150%;
+}
+a{
+    background-color: rgb(22, 100, 163);
+    color: white;
+    text-decoration: none;
+}

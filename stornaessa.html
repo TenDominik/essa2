@@ -1,0 +1,18 @@
+<!--<h1>Galeria zdjec</h1>
+
+<figure class="zdjecia">
+    <figure class="zdjecie" *ngFor="let value of imageTab; let i=index">
+        <a href="{{bigtab[i]}}"><img src="{{value}}"></a>
+        <figcaption class="podpis">{{podtab[i]}}</figcaption>
+    </figure>
+</figure>
+*/-->
+<h1>Top 10 najlepszych pilakarzy w angli</h1>
+<section>
+    <figure class="zdjecie" *ngFor="let value of imageTab; let i=index">
+        <img src="./assets/images/small/{{i+1}}.jpg" alt="{{city[i].nazwisko}} {{city[i].imie}}">
+        <figcaption>
+            <a href="./assets/images/small/{{i+1}}.jpg">{{city[i].imie}} {{city[i].nazwisko}}</a>
+        </figcaption>
+    </figure>
+</section>
